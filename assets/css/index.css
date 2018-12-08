@@ -49,7 +49,7 @@ h1 {
 
 h2,
 h3 {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 /* header */
@@ -160,14 +160,14 @@ h3, h2 {
 .work h3 {
   position: absolute;
   bottom: 20px;
-  width: 100%;
+  width: 50%;
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: #ffffff;
+  /* color: #ffffff; */
   text-align: center;
-  background: #4aaaa5;
+  background: black;
   border-bottom: 0;
 }
 
