@@ -7,4 +7,4 @@ Updated contact to email me
 Pinned repos
 Altered some media queries to ensure mobile friendly
 Updated readmes for each project
-Added screenshots to readmes for projects.
+Added screenshots to readmes for projects
