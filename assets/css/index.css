@@ -7,9 +7,9 @@ body {
   /* background: url("../images/concrete_seamless.png"); */
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 /* general */
 
@@ -44,7 +44,7 @@ h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #dddddd;
+  /* border-bottom: 3px solid #dddddd; */
 }
 
 h2,
@@ -134,7 +134,7 @@ h3, h2 {
   padding: 30px;
   margin: 0 0 40px;
   background: black;
-  border: 1px solid #dddddd;
+  /* border: 1px solid #dddddd; */
 }
 
 /* portfolio page */
@@ -251,6 +251,6 @@ input[type=submit] {
     font-size: 80%;
   }
     h1 {
-      margin-top: -150px;
+      margin-top: -100px;
     }
 }
