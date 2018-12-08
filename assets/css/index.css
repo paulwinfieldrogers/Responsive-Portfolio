@@ -3,6 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
+  background-color: black;
   /* background: url("../images/concrete_seamless.png"); */
 }
 
@@ -17,6 +18,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  background-color: black;
 }
 
 h1,
@@ -33,9 +35,9 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 700;
-  color: black;
+  color: white;
 }
 
 h1 {
@@ -59,7 +61,7 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
-  background: #ffffff;
+  background: black;
   border-bottom: 2px solid #cccccc;
 }
 
@@ -67,12 +69,12 @@ h3 {
   float: left;
   width: 250px;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
   color: #ffffff;
-  text-align: center;
+ /* text-align: center;*/
   text-decoration: none;
   background: black;
 }
@@ -105,8 +107,8 @@ footer {
   color: #ffffff;
   color: #cccccc;
   text-align: center;
-  background: #666666;
-  border-top: 8px solid #4aaaa5;
+ /* background: #666666;*/
+  border-top: 1px solid white;
   height: 50px;
 }
 
@@ -122,6 +124,7 @@ h3, h2 {
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
+  background-color: black;
 }
 
 .main-section {
@@ -130,7 +133,7 @@ h3, h2 {
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #ffffff;
+  background: black;
   border: 1px solid #dddddd;
 }
 
@@ -207,6 +210,9 @@ textarea {
   height: 200px;
 }
 
+#project-one{
+  margin-top: 2px;
+}
 input[type=submit] {
   padding: 10px 30px;
   font-size: 18px;
