@@ -44,7 +44,7 @@ h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  /* border-bottom: 3px solid #dddddd; */
+  border-bottom: 0px solid #dddddd;
 }
 
 h2,
@@ -239,7 +239,7 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
   #masthead {
       position: static;
-      margin-bottom: 0%;  
+      margin-bottom: 75px;  
       color: inherit;
       
   }
