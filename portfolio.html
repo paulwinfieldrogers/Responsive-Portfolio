@@ -6,16 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+  <script src="anime.min.js"></script>
   <title>Portfolio | Paul Rogers</title>
   <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 </head>
-
 <body>
   <div class="repsonsive-container">
     <header id="masthead">
       <div class="container">
         <a href="index.html" id="logo">PAUL ROGERS</a>
+        <script>
+          //adding some animation
+          anime.timeline({
+             easing: 'easeOutExpo',
+          })
+          .add({
+             targets: "#logo",
+             opacity: [0, 1],
+             translateX: [-250, 0],
+             duration: 1000,
+             offset: '+=250',
+             delay: (el, i) => 100 * i
+          })
+          
+          </script>
         <nav>
           <a href="index.html">About</a>
           <a href="portfolio.html">Portfolio</a>

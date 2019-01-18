@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | PAUL ROGERS</title>
   <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+   <script src="anime.min.js"></script>
 </head>
 
 <body>
@@ -13,6 +14,21 @@
   <header id="masthead">
     <div class="container">
       <a href="index.html" id="logo">PAUL ROGERS</a>
+      <script>
+      //adding some animation
+      anime.timeline({
+         easing: 'easeOutExpo',
+      })
+      .add({
+         targets: '#logo',
+         opacity: [0, 1],
+         translateX: [-250, 0],
+         duration: 1000,
+         offset: '+=250',
+         delay: (el, i) => 100 * i
+      })
+      
+      </script>
       <nav>
         <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
